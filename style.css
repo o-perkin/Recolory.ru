@@ -1,0 +1,258 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.main {
+    margin: 0 0 0 250px;    
+}
+
+/*All Sidebar slyles */
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #f1f1f1;
+}
+
+.sidebar-logo {
+    margin: 42px 0 32px 0;
+}
+
+.sidebar a {
+    margin: 0 0 25px 42px;
+    display: block;
+    text-decoration: none;
+    font-size: 13pt;
+    color: #3d9fba;
+}
+
+.sidebar a:hover {
+    color: #2fc9b9;
+}
+
+.sidebar-line {
+    border: none;
+    background-color: #3d9fba;    
+    height: 1px;
+    opacity: 20%;
+    margin: 30px 0 30px 0;
+}
+
+.sidebar-phone-num {
+    margin: 0 0 10px 42px;
+    font-size: 18pt;
+    color: #3d9fba;
+    font-weight: 600;
+}
+
+.sidebar-email {
+    margin: 0 0 0 42px;
+    color: #3d9fba;
+    font-size: 14pt;
+}
+
+.sidebar-get-consult-button a {
+    margin: 20px 0 0 42px;
+    width:170px;
+    height: 44px;
+    border: solid 2px #0c756d;
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0887aa 45%, #33b1a0 100%);
+    border-radius: 5px;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #e3fff7;
+    text-align: center;
+    line-height: 44px;
+}
+
+/* Header slyles */
+
+.main-header {
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0887aa 45%, #33b1a0 100%);
+    height: 400px;
+    padding: 0 60px 0 60px;    
+    display: flex;
+    align-items: center;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+}
+
+.header-center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;    
+}
+
+.header-get-consult-button a {
+    
+    width:170px;
+    height: 44px;
+    border: solid 2px #c5fdf8;
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0887aa 45%, #33b1a0 100%);
+    border-radius: 5px;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #e3fff7;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    line-height: 44px;
+}
+
+.header-center h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.header-center h2 {
+    color: white;
+    font-size: 18pt;
+    font-weight: 400;
+    margin: 25px 0 40px 0;
+}
+
+/* Content slyles */
+.main-content {
+    padding: 0 60px 0 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+}
+
+.content-center {
+    margin: 30px auto 30px auto;
+    max-width: 1140px;    
+}
+
+.step{
+    color: #00b3a1;
+}
+
+.news-headline {
+    color: #3d9fba;
+    font-weight: 400;
+}
+
+.text {
+    color: #3d9fba;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+.waste-separation img {
+    margin: 0 0 7px 60px;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+/* Footer styles */
+
+.main-footer {
+    height: 315px;
+    padding: 0 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+}
+
+.footer-line {
+    width: 100%;
+    border: none;
+    background-color: #3d9fba;    
+    height: 1px;
+    opacity: 20%;
+    margin: 30px -60px 30px -60px;
+}
+
+.main-footer-center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 180px;
+    width: 100%;
+}
+
+.main-footer-center img {
+    width: 90px;
+    height: 80px;
+    float: left;
+}
+
+.left-footer-menu-block a{
+    display: block;
+    margin: 0 0 15px 0;
+    text-decoration: none;
+    color: #0887aa;
+    font-size: 12pt;
+
+}
+
+.right-footer-menu-block a{
+    display: block;
+    margin: 0 0 15px 0;
+    text-decoration: none;
+    color: #0887aa;
+    font-size: 12pt;
+}
+
+.footer-contacts p {
+    margin: 0 0 15px 0;
+}
+
+.footer-contacts p {
+    color: #0887aa;
+    font-size: 12pt;
+}
+
+.footer-phone-num {
+    font-weight: bold;
+}
+
+.main-footer a:hover {
+    color: #2fc9b9;
+    
+}
+
+.low-footer-center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.copyright {
+    color: #0887aa;
+    font-size: 12pt;
+}
+
+.privacy a {
+    color: #0887aa;
+    font-size: 12pt;
+}
+
+
+
+
